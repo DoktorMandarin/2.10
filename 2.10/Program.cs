@@ -20,11 +20,10 @@ namespace _2._10
                     stepen = i;
                                         
                 }
-                
-             Console.WriteLine($"{x} в степени {stepen} больше {number}");
+             Console.WriteLine($"{number}, степень = {stepen} {Math.Pow(x, stepen)}");              
                 
             }
-             
+            
         }
     }
     
